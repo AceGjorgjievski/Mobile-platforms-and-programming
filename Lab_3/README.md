@@ -1,9 +1,13 @@
-#### In order to read the api key from `local.properties` you can follow these two links:
+### Given task 
+[Link](https://prnt.sc/zE4-insqP7mL)
+
+
+### In order to read the API KEY from `local.properties` you can follow these two links:
 - [Link 1](https://jordan-mungujakisa.medium.com/how-to-safeguard-your-api-keys-in-android-projects-with-github-secrets-5679e0e89a77)
 - [Link 2](https://stackoverflow.com/questions/60474010/read-value-from-local-properties-via-kotlin-dsl)
 
-There are primarily two ways to get the API KEY without publishing it on GitHub.
-You can see the two ways [here](), in the `build.gradle.kts` file.
+There are primarily two ways to set up the API KEY without publishing it on GitHub.
+You can see the two ways [here](https://prnt.sc/01E7OG6KJS7w), in the `build.gradle.kts` file.
 
 The **<ins>First method</ins>** is that you need to add the API KEY in the `local.properties` file
 as follows:
@@ -38,3 +42,8 @@ and you will be prompted to import `Properties()` class from:
 import java.util.Properties;
 ```
 and `Sync` at the end in the top right corner of the file.
+
+If you did everything correct, it will be created a hidden folder with `BuildConfig` 
+class inside. There, you can spot your **API_KEY**.
+
+All the best `:)`.
