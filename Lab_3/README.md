@@ -43,6 +43,9 @@ import java.util.Properties;
 ```
 and `Sync` at the end in the top right corner of the file.
 
+At the end, clean and rebuild the project.
+`(Build > Clean/Rebuild Project)`
+
 If you did everything correct, it will be created a hidden folder with `BuildConfig` 
 class inside. There, you can spot your **API_KEY**.
 
