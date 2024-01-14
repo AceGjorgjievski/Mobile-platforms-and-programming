@@ -7,7 +7,7 @@
 - [Link 2](https://stackoverflow.com/questions/60474010/read-value-from-local-properties-via-kotlin-dsl)
 
 There are primarily two ways to set up the API KEY without publishing it on GitHub.
-You can see the two ways [here](https://prnt.sc/01E7OG6KJS7w), in the `build.gradle.kts` file.
+You can see the two ways [here](https://github.com/AceGjorgjievski/MPIP_Labs/blob/master/Lab_3/app/build.gradle.kts), in the `build.gradle.kts` file.
 
 The **<ins>First method</ins>** is that you need to add the API KEY in the `local.properties` file
 as follows:
